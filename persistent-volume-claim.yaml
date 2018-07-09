@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: claim1
+  labels:
+    type: amazonEBS
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: slow
+  resources:
+    requests:
+      storage: 5Gi
