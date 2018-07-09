@@ -1,8 +1,8 @@
 apiVersion: v1
 clusters:
 - cluster:
-    server: <endpoint-url>
-    certificate-authority-data: <base64-encoded-ca-cert>
+    server: endpoint-url
+    certificate-authority-data: base64-encoded-ca-cert
   name: kubernetes
 contexts:
 - context:
